@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="url" value="https://demo.opencart.com/"/>
-  <test thread-count="5" name="ChromeTest(failed)">
+  <test thread-count="5" name="Edit_AccountTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.qa.opencart.pagetest.LoginTest">
+      <class name="com.qa.opencart.pagetest.Edit_acccount_details_Test">
         <methods>
-          <include name="Login_Test" invocation-numbers="0"/>
-          <include name="precondition"/>
+          <include name="editAccount_details" invocation-numbers="0"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.opencart.pagetest.LoginTest -->
+      </class> <!-- com.qa.opencart.pagetest.Edit_acccount_details_Test -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
+  </test> <!-- Edit_AccountTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

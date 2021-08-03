@@ -14,7 +14,7 @@ import com.qa.opencart.util.*;
 
 public class LoginTest extends BaseClass
 {
-WebDriver driver;
+
 LoginPage LoginPage;
 
 
@@ -26,6 +26,8 @@ public void Login_Test(String userID,String pass)
 	
 	
 }
+
+
 	
 @DataProvider(name="login")
 public String[][] sendData() throws IOException

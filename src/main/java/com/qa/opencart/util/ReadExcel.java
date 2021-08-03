@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 
 import java.io.IOException;
 
-
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.*;
 
 
@@ -32,7 +32,9 @@ public class ReadExcel {
 		{
 			for (int j = 0; j < lastCellNum; j++) {
 				
-				String value=sheet.getRow(i).getCell(j).getStringCellValue();
+				XSSFCell cell=sheet.getRow(i).getCell(j);
+				DataFormatter df= new DataFormatter();
+				String value = df.formatCellValue(cell);
 				data[i-1][j]=value;
 				System.out.println(value);
 			} 

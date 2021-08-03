@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 02 23:58:07 IST 2021</td>
+<td>Started on:</td><td>Tue Aug 03 14:14:41 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1366 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1113 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,20 +77,16 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.qa.opencart.pagetest.LoginTest.setUp()'><b>setUp</b><br>Test class: com.qa.opencart.pagetest.LoginTest</td>
 <td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browsername&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--612200168\testng-customsuite.xml
+Parameter &apos;url&apos; is required by BeforeTest on method setUp but has not been marked @Optional or defined
+in C:\Users\DELL\AppData\Local\Temp\testng-eclipse-2061487069\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+	at org.testng.TestRunner.run(TestRunner.java:497)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
@@ -104,22 +100,18 @@ in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--612200168\testng-customsuite
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace203472514", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace203472514'><pre>org.testng.TestNGException: 
-Parameter &apos;browsername&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--612200168\testng-customsuite.xml
+</pre></div><a href='#' onClick='toggleBox("stack-trace432430300", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace432430300'><pre>org.testng.TestNGException: 
+Parameter &apos;url&apos; is required by BeforeTest on method setUp but has not been marked @Optional or defined
+in C:\Users\DELL\AppData\Local\Temp\testng-eclipse-2061487069\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+	at org.testng.TestRunner.run(TestRunner.java:497)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
@@ -135,7 +127,20 @@ in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--612200168\testng-customsuite
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.opencart.pagetest.LoginTest@d278d2b</td></tr>
+<td>com.qa.opencart.pagetest.LoginTest@2d6c53fc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.opencart.pagetest.LoginTest.tearDown()'><b>tearDown</b><br>Test class: com.qa.opencart.pagetest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.opencart.pagetest.LoginTest@2d6c53fc</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -147,20 +152,16 @@ in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--612200168\testng-customsuite
 <tr>
 <td title='com.qa.opencart.pagetest.LoginTest.Login_Test()'><b>Login_Test</b><br>Test class: com.qa.opencart.pagetest.LoginTest</td>
 <td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browsername&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--612200168\testng-customsuite.xml
+Parameter &apos;url&apos; is required by BeforeTest on method setUp but has not been marked @Optional or defined
+in C:\Users\DELL\AppData\Local\Temp\testng-eclipse-2061487069\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+	at org.testng.TestRunner.run(TestRunner.java:497)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
@@ -174,22 +175,18 @@ in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--612200168\testng-customsuite
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace295055909", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace295055909'><pre>org.testng.TestNGException: 
-Parameter &apos;browsername&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
-in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--612200168\testng-customsuite.xml
+</pre></div><a href='#' onClick='toggleBox("stack-trace1060935276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1060935276'><pre>org.testng.TestNGException: 
+Parameter &apos;url&apos; is required by BeforeTest on method setUp but has not been marked @Optional or defined
+in C:\Users\DELL\AppData\Local\Temp\testng-eclipse-2061487069\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+	at org.testng.TestRunner.run(TestRunner.java:497)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
@@ -205,7 +202,7 @@ in C:\Users\DELL\AppData\Local\Temp\testng-eclipse--612200168\testng-customsuite
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.opencart.pagetest.LoginTest@d278d2b</td></tr>
+<td>com.qa.opencart.pagetest.LoginTest@2d6c53fc</td></tr>
 </table><p>
 </body>
 </html>

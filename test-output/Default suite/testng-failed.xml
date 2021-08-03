@@ -7,6 +7,7 @@
         <methods>
           <include name="Login_Test"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.opencart.pagetest.LoginTest -->
     </classes>

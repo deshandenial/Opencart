@@ -3,14 +3,18 @@
 <suite name="Suite">
 
 <parameter name="url" value="https://demo.opencart.com/"></parameter>
-  <test thread-count="1" name="ChromeTest">
+  <test thread-count="1" name="LoginTest">
  <parameter name="browser" value="chrome"></parameter>
 
     <classes>
-    
       <class name="com.qa.opencart.pagetest.LoginTest"/>
-      
-      
+    </classes>
+  </test>
+  <test thread-count="1" name="Edit_AccountTest">
+ <parameter name="browser" value="chrome"></parameter>
+
+    <classes>
+      <class name="com.qa.opencart.pagetest.Edit_acccount_details_Test"/>
     </classes>
   </test>
   

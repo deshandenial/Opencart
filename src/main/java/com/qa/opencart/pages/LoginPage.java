@@ -32,13 +32,19 @@ public class LoginPage extends BaseClass
 
 
 
-	public void Login(String userName,String Password)
+	public Edit_account_details Login(String userName,String Password)
 	{
 		elementUtil.doClick(login1);
 		elementUtil.doClick(login2);
 		elementUtil.doSendKeys(username, userName);
 		elementUtil.doSendKeys(password, Password);
 		elementUtil.doClick(submit);
+		return new Edit_account_details(driver);
+		
 	}
+
+
+
+	
 	
 }
