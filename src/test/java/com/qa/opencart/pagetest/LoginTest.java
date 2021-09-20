@@ -24,7 +24,6 @@ public void Login_Test(String userID,String pass)
 	LoginPage = new LoginPage(driver);
 	LoginPage.Login(userID, pass);
 	
-	
 }
 
 
